@@ -1,0 +1,58 @@
+body, html{
+    width: 100%;
+    background-color: #AEA8D3;
+}
+.photo-front-page img{
+    width: auto;
+    margin: 1%;
+    padding: .4%;
+    height: 90vh;
+    position: fixed;
+    display: inline-block; 
+    box-shadow: 3px 20px 50px 1px #67809F;
+    background-color: #6C7A89;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 25px;
+}
+.front-page-button{
+    
+}
+
+.button{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    border:none;
+    background-color: #81CFE0;
+    outline: none;
+    box-shadow: 1px  3px #67809F;
+}
+.button:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
