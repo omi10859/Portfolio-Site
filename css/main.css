@@ -1,17 +1,22 @@
-body, html{
-    width: 100%;
-    background-color: #AEA8D3;
+
+.boxmove{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../photos/background.png");
+    background-size: 105%;
+    background-position:80% 0%;
 }
 .photo-front-page img{
     width: auto;
-    margin: 1%;
-    padding: .4%;
-    height: 90vh;
+    margin: 10%;
+    padding: .1%;
+    height: 50vh;
+    height: 25vw;
     position: fixed;
     display: inline-block; 
     box-shadow: 3px 20px 50px 1px #67809F;
     background-color: #6C7A89;
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 60px;
     border-top-left-radius: 25px;
 }
 .front-page-button{
@@ -24,7 +29,7 @@ body, html{
     border-radius: 60%;
     position: absolute;
     top: 85%;
-    left: 50%;
+    left: 48.5%;
     border:none;
     background-color: #81CFE0;
     outline: none;
@@ -54,5 +59,27 @@ body, html{
     transform: translate3d(4px, 0, 0);
   }
 }
+
+#name-div{
+    font-size: 55px;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    color: #EEEEEE;
+}
+#geek{
+  font-family: 'Playfair Display SC', serif;
+  color: red;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 29px;
+  position: absolute;
+  top: 117px;
+  left: 1153px;
+
+}
+
+
+
 
 
