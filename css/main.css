@@ -4,7 +4,7 @@ body{
 .boxmove{
     width: 100vw;
     height: 100vh;
-    background-image: url("../photos/background.png");
+    background-image: url("../photos/background.JPEG");
     background-size: 105%;
     background-position:80% 0%;
 }
@@ -99,4 +99,10 @@ a {
 a:hover{
   color: red;
   de
+}
+
+.cross-button{
+  position: relative;
+  top: -51vh;
+  left: 27vw;
 }

@@ -20,7 +20,14 @@ $("#top-image").mousemove(function(e){
               'background-color': 'rgba(0, 0, 0, 0.61)'
             });
         });
+        $('.cross-button').click(function() {
+            $('.menu-options').css({
+              'display':'none',
+              'position': 'relative',
+              'top': '-3vh'
 
+            });
+        });
 
 });
      consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
