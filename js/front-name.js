@@ -12,6 +12,16 @@ $("#top-image").mousemove(function(e){
         $('.boxmove').backgroundMove({
   movementStrength:'50'
         });
+        $('#drop-button').click(function() {
+            $('.menu-options').css({
+              'top': '-102vh',
+              'height': '99vh',
+              'display': 'block',
+              'background-color': 'rgba(0, 0, 0, 0.61)'
+            });
+        });
+
+
 });
      consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
@@ -63,4 +73,4 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
-
+/*for button*/
