@@ -14,8 +14,8 @@ $("#top-image").mousemove(function(e){
         });
         $('#drop-button').click(function() {
             $('.menu-options').css({
-              'top': '-102vh',
-              'height': '99vh',
+              'top': '-103vh',
+              'height': '102vh',
               'display': 'block',
               'background-color': 'rgba(0, 0, 0, 0.61)'
             });
