@@ -1,2 +1,2 @@
 # Portfolio
-This is repository of my personal portfolio website. Hope i complete it :)
+omkar.site
